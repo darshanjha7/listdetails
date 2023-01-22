@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    margin: 0;
+    padding: 10px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+:root {
+    --hoverColor: rgba(245,245,245,255);
+    --backgroundColor:rgba(209, 207, 207, 0.264);
+    --textColor:rgba(141,141,141,255);
+
+}

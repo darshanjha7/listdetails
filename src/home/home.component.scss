@@ -1,0 +1,53 @@
+#text,#icon {
+    line-height: 30px;
+}
+#icon {
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    overflow-y: auto;
+   
+}
+.navbar{
+    width: 100%; padding: 15px; display: flex;flex-direction: row;background-color:var(--hoverColor)
+}
+.navbarItems{
+    vertical-align: middle; font-size: 13px; margin-left:10px;color: rgba(83,83,83,255);
+}
+.navbarButtons{
+    background:none; color:rgb(85, 84, 84)
+}
+#details{
+    background:none;
+    
+}
+#details:hover{
+    background-color: white;
+    border-bottom-color: rgba(0,43,66,255);
+    border-bottom-width: 4px;
+}
+
+tr.example-element-row:hover {
+    background:  var(--hoverColor);
+    
+}
+tr.example-element-row:hover .icon-hover{
+    color:black
+}
+tr.example-element-row:hover .listName{
+    color:rgba(84,180,235,255);
+    font-weight: bold;
+} 
+.mat-column-listName {
+    flex: 0 0 50%;
+    width: 50%;
+}
+.icon-hover{
+    color:var(--textColor)
+}
+input::placeholder{
+    color:rgba(205,205,205,255)
+}
